@@ -63,4 +63,40 @@ input placeholder {
 .section-display{
     border: 1px solid;
     height: 419px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.display-content{
+    border: 1px solid;
+}
+.cat-img{
+    margin: 50px;
+}
+.display-content{
+    margin-right: 40px;
+}
+
+.user-details{
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+}
+
+#profile-bio{
+    color: white;
+    font-family: 'Space Mono', monospace;
+    word-wrap: break-word;
+    border: 1px solid;
+    margin-bottom: 15px;
+}
+.analytics{
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.address{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
