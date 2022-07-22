@@ -8,7 +8,7 @@ body{
 .container{
     width: 730px;
     margin: 0 auto 0 auto;
-    border: 1px solid blue;
+   
 }
 
 .section-heading-content{
@@ -24,7 +24,6 @@ body{
 .section-search{
     margin-top: 40px;
     margin-bottom: 40px;
-    border: 1px solid;
     padding: 5px;
     background-color:#1E2A47;
     border-radius: 10px;
@@ -44,6 +43,10 @@ button{
     color: white;
     font-family: 'Space Mono', monospace;
 }
+button:hover{
+    cursor: pointer;
+}
+
 input{
     font-family: 'Space Mono', monospace;
     width: 254px;
@@ -61,14 +64,12 @@ input placeholder {
 }
 
 .section-display{
-    border: 1px solid;
     height: 419px;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    background-color: #1E2A47;
 }
-.display-content{
-    border: 1px solid;
-}
+
 .cat-img{
     margin: 50px;
 }
@@ -85,11 +86,10 @@ input placeholder {
     color: white;
     font-family: 'Space Mono', monospace;
     word-wrap: break-word;
-    border: 1px solid;
     margin-bottom: 15px;
 }
 .analytics{
-    border: 1px solid;
+    background-color: #141D2F;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;

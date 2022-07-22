@@ -10,6 +10,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/styles.css">
+    <script type = "text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js">  
+      </script>
 </head>
 <body>
     <div class="container">
@@ -23,8 +25,8 @@
         <div class="section-search">
             <div class="section-search-content">
                 <div id="search-box"><img src="/assets/icon-search.svg" alt=""></div>
-                <div><input type="text" placeholder="Search GitHub username..."></div>
-                <button>Search</button>
+                <div><input class="input" type="text" placeholder="Search GitHub username..."></div>
+                <button id="search">Search</button>
             </div>
         </div>
         <div class="section-display">
@@ -32,8 +34,8 @@
             <div class="display-content">
                 <div class="user-details">
                     <div class="user">
-                        <p id="user-id">ee</p>
-                        <p>ee</p>
+                        <p id="user-id"></p>
+                        <p></p>
                     </div>
                     <div>
                         <p id="join">fgf</p>
