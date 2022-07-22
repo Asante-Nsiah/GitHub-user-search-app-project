@@ -7,8 +7,23 @@ body{
 
 .container{
     width: 730px;
-    margin: 0 auto 0 auto;
+    margin: 100px auto 0 auto;
    
+}
+#header-text{
+    font-style: normal;
+    font-size: 26px;
+    line-height: 39px;
+    font-weight: 700;
+    color: white;
+}
+#light-text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 2.5px;
+    color: white;
 }
 
 .section-heading-content{
@@ -79,14 +94,35 @@ input placeholder {
 
 .user-details{
     display: grid;
-    grid-template-columns: 1fr 0fr;
+    grid-template-columns: 1fr 0.5fr;
+}
+#join{
+    text-align: right;
+    margin-bottom:0 ;
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+    
+}
+#login{
+    color: #0079FF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
 }
 
 #profile-bio{
     color: white;
     font-family: 'Space Mono', monospace;
     word-wrap: break-word;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+    height:50px;
+
 }
 .analytics{
     background-color: #141D2F;
@@ -94,9 +130,46 @@ input placeholder {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 10px;
     margin-bottom: 30px;
+    border-radius: 10px;
+}
+.analytics-detail{
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 400;   
+    line-height: 19px;
+    color: white;
+    margin-bottom: 0;
+    
+}
+.analytics-numbers{
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: white;
+}
+#repos, #repos-number{
+    margin-left: 30px;
 }
 
 .address{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 0.5fr;
+}
+#user-id{
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 39px;
+    margin-bottom: 0px;
+}
+.sub-details{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+    margin-left: 10px;
 }
